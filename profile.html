@@ -1,0 +1,140 @@
+<style>
+    .father {
+        display: flex; /* Flexbox for aligning items */
+        align-items: center;
+    }
+
+    .aky {
+        display: flex; 
+        color: black;
+        border: 2px solid black;
+    }
+
+    nav {
+        padding: 20px;
+        color: white;
+        cursor: pointer;
+    }
+
+    nav:hover {
+        background-color: #333;
+    }
+
+    body {
+        background-color: black;
+        font-family: Arial, sans-serif;
+    }
+
+    .picture {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        margin-left: 150px;
+    }
+
+    .btn:hover {
+        background-color: aqua;
+    }
+
+    .biggest {
+        display: flex;
+        justify-content: space-between; /* Spacing between profile and about me */
+        margin: 20px;
+    }
+
+    .profile-container {
+        flex: 1; /* Takes up space on the left */
+        padding-right: 20px;
+    }
+
+    .about-container {
+        flex: 1; /* Takes up space on the right */
+        padding-left: 50px;
+        color: white;
+    }
+
+    .btn {
+        border-radius: 10px;
+        font-size: larger;
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+    .btn:hover {
+        background-color: #45a049;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    ul li {
+        font-size: 18px;
+        color: white;
+    }
+
+    .social-links img {
+        margin: 10px;
+    }
+</style>
+
+<body>
+    <div class="biggest">
+        <!-- Profile Section -->
+        <div class="profile-container">
+            <div class="father">
+                <div>
+                    <img width="72.5px" src="https://tse3.mm.bing.net/th?id=OIP.aVo-Ti-SnzddcplNNX71PgHaGP&pid=Api&P=0&h=180" alt="">
+                </div>
+                <div class="aky">
+                    <nav>Home</nav>
+                    <nav>About</nav>
+                    <nav>Blog</nav>
+                    <nav>Portfolio</nav>
+                    <input style="padding: 0%;" class="btn" type="button" value="Contact Me">
+                </div>
+            </div>
+
+            <div class="picture">
+                <h1>FRONTEND DEVELOPER</h1>
+                <h2>Ayush Kumar Yadav</h2>
+                <h3>B.Tech-CSE | KIET '28</h3>
+                <img width="200px" style="border-radius: 300px; border: 10px solid; box-shadow: 0 0 1rem #fff, 0 0 2rem #3877ff, 0 0 4rem #3877ff;" src="my image.jpg" alt="Profile Picture">
+            </div>
+        </div>
+
+        <!-- About Me Section -->
+        <div class="about-container">
+            <b>About Me:</b>
+            <p>I am Ayush Kumar Yadav, a passionate and dedicated frontend developer currently pursuing my B.Tech in Computer Science at KIET. With a deep interest in coding and web development, I specialize in using technologies like Java, C, HTML, CSS, and JavaScript to create interactive, user-friendly websites and applications. I am constantly seeking to expand my knowledge and refine my skills to deliver high-quality and innovative solutions.</p>
+
+            <div>
+                <h1>SKILLS:</h1>
+                <ul>
+                    <li>JAVA</li>
+                    <li>C</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JAVASCRIPT</li>
+                </ul>
+            </div>
+
+            <input class="btn" type="button" value="DOWNLOAD CV">
+        </div>
+    </div>
+
+    <!-- Social Links Section -->
+    <div class="social-links" >
+        <a href="https://www.linkedin.com/in/ayush-kumar-yadav-3829a9327?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img width="50px"  src="https://itcnet.gr/wp-content/uploads/2020/09/Linkedin-logo-on-transparent-Background-PNG-.png" alt=""></a>
+        
+        
+            <a href="https://www.instagram.com/ayush_ydv29/profilecard/?igsh=MWx5bnF1aHJtY25oMQ=="><img width="40px" src="https://www.pinclipart.com/picdir/middle/1-13590_copyright-clipart.png" alt=""></a>
